@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": false,
+
+    "baseUrl": "./",
+    "lib": ["es6"],
+    "target": "es5"
+  }
+}

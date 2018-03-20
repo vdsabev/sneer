@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "name": "sneer",
+  "description": "Type-safe mocking utilities",
+  "keywords": [
+    "typescript",
+    "jest",
+    "jasmine",
+    "test",
+    "mock",
+    "mocking"
+  ],
+  "repository": "vdsabev/sneer",
+  "author": {
+    "name": "Vladimir Sabev",
+    "url": "https://vdsabev.com"
+  },
+  "license": "MIT",
+  "main": "index.min.js",
+  "jsnext:main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.0"
+  }
+}
