@@ -21,7 +21,7 @@ import { mockPartial, mockPartialRecursive } from 'sneer';
 ```
 
 ### `mockPartial`
-Casts an object to a type while only requiring a partial implementation of the type to be passed. This allows us to easily mock an object while writing tests without having to define all of the properties of an object.
+Casts an object (or array of objects) to a type `T` while only requiring a partial implementation of the type to be passed. This allows us to easily mock an object while writing tests without having to define all of the properties of an object.
 
 Example:
 ```ts
