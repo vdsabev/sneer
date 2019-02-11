@@ -17,7 +17,7 @@ npm install sneer -D
 
 ## Usage
 ```ts
-import { mockPartial, mockPartialRecursive } from 'sneer';
+import { mockPartial, mockRecursivePartial } from 'sneer';
 ```
 
 ### `mockPartial`
@@ -30,7 +30,7 @@ const store = mockPartial<Store<State>>({
 });
 ```
 
-### `mockPartialRecursive`
+### `mockRecursivePartial`
 Same as `mockPartial`, but recursively partial 🙃
 
 Example:
