@@ -8,7 +8,7 @@
 <p align="center">Type-safe mocking utilities</p>
 
 ## Why?
-You want to write test mocks in TypeScript while preserving type safety.
+You want to write test mocks in TypeScript while preserving type safety and getting meaningful type errors.
 
 ## Installation
 ```
@@ -17,10 +17,16 @@ npm install sneer -D
 
 ## Usage
 ```ts
-import { mockPartial, mockRecursivePartial } from 'sneer';
+import {
+  mockPartial,
+  mockPartialArray,
+  mockRecursivePartial,
+  mockRecursivePartialArray,
+} from 'sneer';
 ```
 
 ### `mockPartial`
+### `mockPartialArray`
 Casts an object (or array of objects) to a type `T` while only requiring a partial implementation of the type to be passed. This allows us to easily mock an object while writing tests without having to define all of the properties of an object.
 
 Example:
@@ -31,7 +37,8 @@ const store = mockPartial<Store<State>>({
 ```
 
 ### `mockRecursivePartial`
-Same as `mockPartial`, but recursively partial 🙃
+### `mockRecursivePartialArray`
+Same as `mockPartial` and `mockPartialArray`, but recursively partial 🙃
 
 Example:
 ```ts

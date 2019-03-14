@@ -1,2 +1,6 @@
+.travis.yml
 *.ts
 !*.d.ts
+tsconfig.base.json
+tsconfig.json
+tslint.json

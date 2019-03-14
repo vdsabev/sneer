@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "1.0.0-rc.1",
   "name": "sneer",
   "description": "Type-safe mocking utilities",
   "keywords": [
@@ -16,7 +16,7 @@
     "url": "https://vdsabev.com"
   },
   "license": "MIT",
-  "main": "index.min.js",
+  "main": "index.js",
   "jsnext:main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",
@@ -24,6 +24,6 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "typescript": "^2.6.0"
+    "typescript": ">=2.6.0"
   }
 }
