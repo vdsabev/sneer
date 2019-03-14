@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "name": "sneer",
   "description": "Type-safe mocking utilities",
   "keywords": [
@@ -21,7 +21,7 @@
   "module": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "prepublish": "tsc"
   },
   "devDependencies": {
     "typescript": ">=2.6.0"
